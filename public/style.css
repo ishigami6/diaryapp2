@@ -1,0 +1,128 @@
+.board-section {
+    display: flex;
+  }
+  
+  .content-section {
+    float: left;
+    width: 70%;
+  }
+  
+  .sidebar-section {
+    float: right;
+    width: 30%;
+  }
+  
+  .form-section p, .form-section input, .form-section textarea, .form-section button {
+    width: 100%;
+  }
+  
+  .thread-section .single-thread {
+    margin-bottom: 20px;
+    /* その他のスタイル */
+  }
+  
+  /* 掲示板のスレッドの見出し */
+  .thread-section .single-thread h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* 掲示板のスレッドの本文 */
+  .thread-section .single-thread h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  /* 掲示板のスレッドの投稿日 */
+  .thread-section .single-thread p {
+    font-size: 12px;
+    margin-bottom: 20px;
+    color: #999;
+  }
+  
+  /* 掲示板のスレッドの背景色 */
+  .thread-section .single-thread {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    transition: transform 0.2s;
+  }
+  
+  /* 掲示板のスレッドのホバー時の効果 */
+  .thread-section .single-thread:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* タイトルのスタイル */
+  .board-section > h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* フォームのスタイル */
+  .board-section .form-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  }
+  
+  /* フォームのラベルと入力欄のスタイル */
+  .board-section .form-section p {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .board-section .form-section input[type="text"],
+  .board-section .form-section textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #eee;
+    margin-bottom: 20px;
+  }
+  
+  /* 送信ボタンのスタイル */
+  .board-section .form-section #submitButton {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .board-section .form-section #submitButton:hover {
+    background-color: #0069d9;
+  }
+  
+  /* 左右に分割したコンテナのスタイル */
+  .board-container {
+    display: flex;
+  }
+  
+  /* スレッドセクションのスタイル */
+  .thread-section {
+    flex: 1;
+  }
+  
+  /* タイトルとフォームのスタイル */
+  .form-section {
+    flex-basis: 300px;
+    margin-left: 20px;
+  }
+  
+  .sidebar-section h2 {
+    text-align: center;
+  }
+  
+  
+  
